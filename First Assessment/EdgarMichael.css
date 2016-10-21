@@ -1,0 +1,55 @@
+/* CSS Document */
+h1{
+   color: #3a6c88;
+   background-color: #b1cedd;
+   text-align: right;
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-top: 0.5%;
+   border-width: 1px;
+   border-color: #b1cedd;
+   border-style: solid;
+  }
+
+#box{
+     border-width: 2px;
+     border-color: #b1cedd;
+     border-style: solid;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-top: 2%;
+     
+    }
+
+body{
+     font-family: Verdana, Arial, Helvetica, "sans-serif";
+     font-size: 14px;
+     width:90%;
+    }
+
+h2{
+   color: #3a6c88;
+   margin-top: 3%;
+   margin-left: 5%;
+   margin-right:5%;
+   border-top-width: 2px;
+   border-top-style: solid;
+   border-top-color: #b1cedd;
+   border-left-width: 2px;
+   border-left-style: solid;
+   border-left-color: #b1cedd;
+  }
+
+p{
+  color: #3a6c88;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
+
+#end{
+     text-align: center;
+    }
+
+ul{
+   color:#3a6c88;
+  }
