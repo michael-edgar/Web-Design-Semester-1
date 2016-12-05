@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='cs'>
+<html lang='en'>
   <head>
     <title>Form</title>
     <meta charset='utf-8'>
@@ -14,23 +14,82 @@
   <form method = "post" action = "mailto: 123@abc.com">
     <fieldset>
       <legend>Personal Details</legend>
+      
       <label for="name">Name:</label>
-      <input type="text" name="Name" id="name" size="30" maxlength="20"><br>
+      <input type="text" name="Name" id="name" size="30" maxlength="20" tabindex="2"><br>
+      
+      <input name="gender" id="genderM" value="M" type="radio" tabindex="3" accesskey="m">
+      <label for="genderM">Male</label>
+      
+      <input name="gender" id="genderF" value="F" type="radio" 
+       checked="checked" tabindex="1" accesskey="f">
+      <label for="genderF">Female</label><br>
       
       <label for="address1">Address 1: </label>
-      <input type="text" name="Address1" id="address1" size="30" maxlength="20"><br>
+      <input type="text" name="Address1" id="address1" size="30" maxlength="20" tabindex="5"><br>
       
       <label for="address2">Address 2: </label>
-      <input type="text" name="Address2" id="address2" size="30" maxlength="20"><br>
+      <input type="text" name="Address2" id="address2" size="30" maxlength="20" tabindex="4"><br>
       
       <label for="address3">Address 3: </label>
-      <input type="text" name="Address3" id="address3" size="30" maxlength="20" 
-      value="cork"><br>
+      <input type="text" name="Address3" id="address3" size="30" maxlength="20" tabindex="7" 
+      value="Cork"><br>
       
       <label for="age">Age: </label>
-      <input type="text" name="Age" id="age" size="10" maxlength="3" value="25"><br>
+      <input type="text" name="Age" id="age" size="10" maxlength="3" tabindex="6"
+      value="25"><br>
       
-      <textarea name="comments" rows="5" columns="6">Comments?</textarea>
+      <input type="checkbox" name="Qualifications" id="cert" value="Cert" tabindex="8">
+      <label for="cert">Certficate</label>
+      
+      <input type="checkbox" name="Qualifications" id="diploma" value="Diploma" tabindex="10">
+      <label for="diploma">Diploma</label>
+      
+      <input type="checkbox" name="Qualifications" id="degree" value="Degree" tabindex="9">
+      <label for="degree">Degree</label>
+      
+      <input type="checkbox" name="Qualifications" id="masters" value="Masters" tabindex="11">
+      <label for="masters">Masters Degree</label> <br>
+      
+      <label for="course">Course: </label>
+      
+      <select name="course" id="course">
+        <optgroup label="Computing">
+          <option value="Games Development" selected="selected">Games Development</option>
+      
+          <option value="Software Development">Software Development</option>
+      
+          <option value="Multimedia">Multimedia</option>
+      
+          <option value="IT Support">IT Support</option>
+        </optgroup>
+        
+        <optgroup label="Business">
+          <option value="General">General Business</option>
+      
+          <option value="Agribusiness">Agribusiness</option>
+          
+          <option value="Accounting">Accounting</option>
+      
+          <option value="Marketing">Marketing</option>
+        </optgroup>
+        
+        <optgroup label="Hotel, Culinary, Tourism">
+          <option value="Culinary Arts">Culinary Arts</option>
+      
+          <option value="Adventure Tourism">Adventure Tourism</option>
+      
+          <option value="Hotel Management">Hotel Management</option>
+      
+          <option value="Travel and Tourism">Travel and Toursim</option>
+        </optgroup>
+      </select><br>
+      
+      <textarea name="comments" rows="5" columns="6">Comments?</textarea><br> 
+      
+      <input value="Enroll" name="submit" type="submit">
+      
+      <input name="reset" type="reset">
     </fieldset>
   <form>
 
