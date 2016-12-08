@@ -1,0 +1,71 @@
+/* CSS Document */
+
+#mainBox{
+          padding:0;
+          margin-left: 15%;
+          margin-right: 15%;
+          margin-top: 3%;
+          font-size: 15px;
+        }
+
+nav{
+       display: block;
+       width: 50%;
+       text-align: center;
+       margin: 0 auto;
+       padding: 0.25em;
+       font-size: 1.2m;
+   }
+
+.firstlist{
+    display: inline;
+    list-style-type:none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #0023A2; 
+  }
+
+a:link{
+         color: #9EE3EA;
+      }
+      
+a:visited{
+          color: #9EE3EA;
+         }
+
+a:hover{
+          color:#DA0000;
+       }
+      
+.logo{
+      float:left;
+     }
+     
+footer{
+       display: block;
+       width: 50%;
+       text-align: center;
+       margin: 0 auto;
+       padding: 0.25em;
+       background-color: #0023A2;
+       font-size: 1.2m;
+   }
+   
+li{
+    display: inline;
+    list-style-type:none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%; 
+  }
+  
+.mAh {
+        color: #DA0000;
+     }
+
+td, th{
+    border: 1px solid #0023A2;
+  }
