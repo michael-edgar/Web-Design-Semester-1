@@ -1,5 +1,9 @@
 /* CSS Document */
 
+body{
+          background-color: #FF7E00;
+    }
+
 #mainBox{
           padding:0;
           margin-left: 15%;
@@ -14,13 +18,13 @@ nav{
        text-align: center;
        margin: 0 auto;
        padding: 0.25em;
-       font-size: 1.2m;
+       font-size: 16px;
        background-color: #0032A2;
    }
 
 a:link{
          color: #9EE3EA;
-      }
+      }                 
       
 a:visited{
           color: #9EE3EA;
@@ -31,33 +35,33 @@ a:hover{
        }
       
 .logo{
-      float:left;
+        float:left;
      }
      
 footer{
-       display: block;
-       width: 50%;
-       text-align: center;
-       margin: 0 auto;
-       padding: 0.25em;
-       background-color: #0023A2;
-       font-size: 1.2m;
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0.25em;
+        background-color: #0023A2;
+        font-size: 16px;
    }
    
 .footAndHead{
-       display: inline;
-       list-style-type:none;
-       padding-top: 2%;
-       padding-bottom: 2%;
-       padding-left: 3%;
-       padding-right: 3%; 
-  }
+        display: inline;
+        list-style-type:none;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 3%; 
+  } 
 
 .sitemap{
-       margin-left: 14%;
-       margin-right: 14%;
-       background-color: #0023A2;
-       color: #9EE3EA;   
+        margin-left: 14%;
+        margin-right: 14%;
+        background-color: #0023A2;
+        color: #9EE3EA;   
   }
   
 .mAh {
@@ -65,5 +69,13 @@ footer{
      }
 
 td, th{
-    border: 1px solid #0023A2;
+        border: 1px solid #0023A2;
+  }
+  
+.pokeball{
+        margin-left: 16%;
+  }
+
+.solar{
+        padding-left: 6%;
   }

@@ -23,7 +23,68 @@
        </ul>
       </nav>
       <div id="mainBox">
+        <form method = "post" action = "mailto:michael.edgar@students.ittralee.ie">
+          <fieldset>
+            <legend>Personal Details</legend>
       
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="name" size="30" maxlength="20" tabindex="2"><br>
+      
+            <input name="gender" id="genderM" value="M" type="radio" tabindex="3" accesskey="m">
+            <label for="genderM">Male</label>
+      
+            <input name="gender" id="genderF" value="F" type="radio" 
+            checked="checked" tabindex="1" accesskey="f">
+            <label for="genderF">Female</label><br>
+      
+            <label for="address1">Address 1: </label>
+            <input type="text" name="Address1" id="address1" size="30" maxlength="20" tabindex="5"><br>
+      
+            <label for="address2">Address 2: </label>
+            <input type="text" name="Address2" id="address2" size="30" maxlength="20" tabindex="4"><br>
+      
+            <label for="address3">Address 3: </label>
+            <input type="text" name="Address3" id="address3" size="30" maxlength="20" tabindex="7" value="Cork"><br>
+      
+            <label for="age">Age: </label>
+            <input type="text" name="Age" id="age" size="10" maxlength="3" tabindex="6" value="25"><br>
+      
+            <label for="email">Email Address: </label>
+            <input type="text" name="EmailAddress" id="email" size="10" maxlength="3" tabindex="6"><br>
+      
+             <label for="referral">How did you find this website? </label>
+      
+            <select name="Referrals" id="referral">
+              <optgroup label="Online">
+                <option value="I saw an ad online" selected="selected">I saw an ad online</option>
+      
+                <option value="Google">I was doing research on the subject</option>
+              </optgroup>
+        
+              <optgroup label="Personal">
+                <option value="Ad on paper">I saw an ad for it in a newspaper/magazine</option>
+      
+                <option value="Ad on tv">I saw an ad for it on TV</option>
+          
+                <option value="Friend/Family">A friend/family member recommended it to me</option>
+             
+                <option value="Other">Other</option>
+              </optgroup> 
+              </select><br>              
+            <input type="checkbox" name="EmailUpdate" id="updates" value="Updates" tabindex="8">
+            <label for="updates">Tick this to receive email updates</label> <br>
+      
+           
+            
+      
+            <textarea name="comments" rows="5">Comments?</textarea><br> 
+      
+          
+            <input value="Sign Up" name="submit" type="submit">
+      
+            <input name="reset" type="reset">
+          </fieldset>
+        </form>
       </div>
       <footer>
               <ul>
@@ -33,6 +94,7 @@
                   <li class = "footAndHead"><a href="newsletter.html">Newsletter</a></li>
                   <li class = "footAndHead"><a href="index.html">Sitemap</a></li>
               </ul>
+              <a href="#top">Back to top </a>
       </footer>
     
   </body>
